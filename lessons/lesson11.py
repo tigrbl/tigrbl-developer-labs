@@ -28,7 +28,10 @@ async def exercise(p):
     )
     p.show(
         "Distinct keyword",
-        "bindings describes transport projections; bind attaches an owner.",
+        (
+            "bindings describes transport "
+            "projections; bind attaches an owner."
+        ),
     )
 
 

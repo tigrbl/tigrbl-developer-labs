@@ -20,7 +20,11 @@ async def exercise(p):
     await p.create("canonical")
     p.show(
         "Interpretation",
-        "Canonical create performs persistence. The custom summary core computes a result.",
+        (
+            "Canonical create performs persistence. "
+            "The custom summary core computes a "
+            "result."
+        ),
     )
 
 

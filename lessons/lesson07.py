@@ -23,7 +23,13 @@ async def exercise(p):
     )
     p.show(
         "Scope",
-        "This release uses an explicit custom projection handler reusing the pure producer. The vcol declaration is inspected separately; automatic CRUD virtual-field output is not claimed.",
+        (
+            "This release uses an explicit custom "
+            "projection handler reusing the pure "
+            "producer. The vcol declaration is "
+            "inspected separately; automatic CRUD "
+            "virtual-field output is not claimed."
+        ),
     )
 
 

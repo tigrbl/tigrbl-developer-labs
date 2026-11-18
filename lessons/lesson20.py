@@ -27,7 +27,10 @@ async def exercise(p):
             )
             p.check(
                 received["id"] == ident,
-                f"message {ident} receives its own correlated response",
+                (
+                    f"message {ident} receives its own "
+                    "correlated response"
+                ),
             )
     p.show(
         "Two real exchanges on one socket",

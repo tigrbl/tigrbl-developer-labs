@@ -15,7 +15,10 @@ async def exercise(p):
     p.check(
         selected["tx_unit"] == "message"
         and selected["loop_region"] == "socket.receive",
-        "selected cell identifies message transaction unit and receive loop",
+        (
+            "selected cell identifies message "
+            "transaction unit and receive loop"
+        ),
     )
     p.check(
         len(matrix["cells"]) == 66,

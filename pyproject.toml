@@ -8,7 +8,14 @@ dependencies = [
   "httpx>=0.28,<0.29",
   "websockets>=15,<17",
   "pytest>=8,<10",
+  "pygments>=2.19,<3",
 ]
 
 [tool.pytest.ini_options]
 addopts = "-q -p no:cacheprovider"
+
+[dependency-groups]
+dev = [
+    "pillow>=11,<13",
+    "ruff>=0.15,<1",
+]

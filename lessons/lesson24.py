@@ -28,7 +28,10 @@ async def exercise(p):
     )
     p.check(
         rest == rpc["result"] == frame["result"],
-        "three configured surfaces produce equivalent modeled summary results",
+        (
+            "three configured surfaces produce "
+            "equivalent modeled summary results"
+        ),
     )
     status, _ = await p.request(
         "POST",

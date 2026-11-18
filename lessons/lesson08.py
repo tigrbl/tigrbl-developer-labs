@@ -20,7 +20,10 @@ async def exercise(p):
         rejected = False
     p.check(
         rejected,
-        "81-character title is rejected by the generated input model",
+        (
+            "81-character title is rejected by the "
+            "generated input model"
+        ),
     )
     good = {**bad, "title": "Ship a lesson"}
     p.show(

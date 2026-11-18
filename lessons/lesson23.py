@@ -37,7 +37,12 @@ async def exercise(p):
     )
     p.show(
         "Scope",
-        "Matcher proof is not universal mounted-path enforcement. Owner-level binding filters differ; validate the selected transport path separately.",
+        (
+            "Matcher proof is not universal "
+            "mounted-path enforcement. Owner-level "
+            "binding filters differ; validate the "
+            "selected transport path separately."
+        ),
     )
 
 

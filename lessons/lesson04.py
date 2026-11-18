@@ -14,7 +14,11 @@ async def exercise(p):
     )
     p.show(
         "Interpretation",
-        "Inventories and plans describe structure; a request trace proves execution.",
+        (
+            "Inventories and plans describe "
+            "structure; a request trace proves "
+            "execution."
+        ),
     )
 
 

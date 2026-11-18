@@ -29,7 +29,11 @@ async def exercise(p):
     )
     p.show(
         "Interpretation",
-        "Plan labels describe possible work; the separate teaching trace records executed hooks and handler calls.",
+        (
+            "Plan labels describe possible work; the "
+            "separate teaching trace records executed "
+            "hooks and handler calls."
+        ),
     )
 
 

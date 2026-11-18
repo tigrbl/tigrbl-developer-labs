@@ -52,11 +52,19 @@ async def exercise(p):
         )
     p.check(
         results[0] == results[1],
-        "decoded parameters produce equivalent pure-core results",
+        (
+            "decoded parameters produce equivalent "
+            "pure-core results"
+        ),
     )
     p.show(
         "Scope",
-        "This is a codec/core lab. Only lesson 17 claims an actual network WS JSON-RPC exchange; NDJSON is not presented as a second network demo.",
+        (
+            "This is a codec/core lab. Only lesson 17 "
+            "claims an actual network WS JSON-RPC "
+            "exchange; NDJSON is not presented as a "
+            "second network demo."
+        ),
     )
 
 
