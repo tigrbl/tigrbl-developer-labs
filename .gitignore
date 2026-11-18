@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+.pytest_cache/
+evidence/
+*.log
+*.png
+*.jpg
+verification.json
+handler-diagnostic.txt
+diagnose.py
+smoke.py
+check_socket.py
+socket_probe.py
+tigrcorn.toml
